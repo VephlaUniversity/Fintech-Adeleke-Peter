@@ -1,0 +1,625 @@
+html,
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji" SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+.navigation {
+  background-color: #f8f9fa;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+#visible, #visible-one{
+  z-index: 90;
+  position: fixed;
+  width: 100%;
+  padding: 3rem;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+}
+.menu div > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.menu div > a:hover {
+  color: #f26524;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  font-size: 13px;
+}
+.content div {
+  width: 300px;
+}
+.visibility {
+  background-color: #f8f9fa;
+  display: none;
+}
+.visibility div > a {
+  text-decoration: none;
+  color: black;
+}
+.visibility div > a:hover {
+  color: #f26524;
+}
+.visibility-one {
+  background-color: #f8f9fa;
+  display: none;
+}
+.visibility-one div > a {
+  text-decoration: none;
+  color: black;
+}
+.visibility div > a:hover {
+  color: #f26524;
+}
+div > .btn {
+  background-color: #d9d9d9;
+  border: none;
+  width: 150px;
+  height: 55px;
+  padding: 18px 20px 10px 40px;
+  border-radius: 30px;
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+}
+div > .btn:hover {
+  background-color: white;
+}
+#menu > .fa-bars:hover {
+  color: #e7dede;
+  cursor: pointer;
+}
+.big {
+  background-image: url("https://remita.net/assets/minimal/images/hero_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px 100px 10px 100px;
+}
+.text {
+  width: 45%;
+  font-size: 60px;
+  line-height: 0.9;
+}
+.text p > button {
+  background-color: #f26524;
+  border: none;
+  width: 320px;
+  height: 50px;
+  border-radius: 40px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgb(212, 94, 35);
+}
+.text p > button:hover {
+  background-color: rgb(212, 94, 35);
+}
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.search > input {
+  position: relative;
+  top: 120px;
+  margin-right: 120px;
+  width: 455px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid rgb(193, 192, 192);
+  border-radius: 30px;
+  outline: none;
+}
+.search > input:focus {
+  box-shadow: 0 0 20px rgb(212, 94, 35);
+}
+.first,
+.second,
+.third {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.shadow {
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 80px;
+  height: 100px;
+  border-radius: 10px;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 12px;
+  box-shadow: -10px -10px 20px white;
+  transition: all 0.5s ease-in-out;
+  font-weight: bold;
+  cursor: pointer;
+}
+.shadow:hover {
+  background-color: #f8f9fa;
+  transform: scale(1.19);
+  box-shadow: -10px -10px 20px #d9d9d9;
+}
+.container2 {
+  background-image: url("https://remita.net/assets/minimal/images/mini_features_hero_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pic img {
+  width: 100%;
+}
+.btn2 {
+  display: flex;
+  background-color: #d9d9d9;
+  border: none;
+  width: 170px;
+  height: 55px;
+  padding: 18px 20px 10px 40px;
+  border-radius: 30px;
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+}
+.btn2:hover,
+#btn2:hover {
+  background-color: white;
+}
+.btn3 {
+  background-color: #f26524;
+  border: none;
+  width: 320px;
+  height: 50px;
+  border-radius: 40px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgb(212, 94, 35);
+}
+.btn3:hover,
+.btn4:hover,
+#btn1:hover {
+  background-color: rgb(212, 94, 35);
+}
+.text1 > h1 {
+  font-size: 37px;
+  line-height: 1;
+}
+.text1 > p {
+  font-size: 20px;
+  color: rgb(90, 90, 90);
+}
+.container3 {
+  background-image: url("https://remita.net/assets/minimal/images/merchants_bg_hero_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pic2 img {
+  width: 600px;
+}
+.btn4 {
+  background-color: #f26524;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgb(212, 94, 35);
+}
+.container4 {
+  margin-block-start: 0;
+  background-image: url("https://remita.net/assets/minimal/images/minimal_billers_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: contain;
+  height: auto;
+}
+.text4 {
+  text-align: center;
+}
+.text4 > h1 {
+  font-size: 37px;
+  line-height: 1;
+}
+.text4 > p {
+  font-size: 25.5px;
+  color: rgb(90, 90, 90);
+  word-spacing: 3px;
+}
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pad {
+  padding-top: 10px;
+}
+
+.card {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 7px;
+  margin-inline: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px 2px 10px 5px rgb(205, 201, 201);
+  transition: transform 0.4s ease-out;
+}
+.card:hover {
+  transform: scale(1.15);
+}
+#btn {
+  text-align: center;
+}
+#btn1 {
+  background-color: #f26524;
+  border: none;
+  width: 170px;
+  height: 50px;
+  border-radius: 40px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgb(212, 94, 35);
+}
+#btn2 {
+  background-color: #d9d9d9;
+  border: none;
+  width: 170px;
+  height: 50px;
+  border-radius: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.container5 {
+  margin-block-start: 0;
+  background-image: url("https://remita.net/assets/minimal/images/mini_download_bg_img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container5 > div > img {
+  width: 100%;
+}
+.text5 > p > a {
+  color: rgb(3, 122, 128);
+}
+.text5 > p > a:hover {
+  color: rgb(0, 85, 255);
+}
+#google,
+#apple {
+  display: flex;
+  width: 150px;
+  background-color: #f0f0f0;
+  font-weight: bolder;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 8px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+#google:hover,
+#apple:hover {
+  background-color: #f8f9fa;
+}
+.text5 > h1 {
+  font-size: 37px;
+  line-height: 1;
+}
+.text5 > p {
+  font-size: 22px;
+  color: rgb(90, 90, 90);
+  word-spacing: 3px;
+}
+.container6 {
+  background-image: url("https://remita.net/assets/minimal/images/minimal_developers_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://remita.net/assets/minimal/images/minimal_newsletter_bg_img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+.container7 > h1 {
+  color: white;
+  font-size: 40px;
+}
+.container7 div > input {
+  background-color: transparent;
+  width: 400px;
+  height: 50px;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+.container7 div > button {
+  background-color: rgb(233, 187, 169);
+  width: 200px;
+  height: 50px;
+  padding: 20px 20px 30px 20px;
+  color: #f26524;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.container7 div > input::placeholder {
+  color: white;
+  caret-color: white;
+}
+.chatbox {
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  z-index: 10;
+  cursor: pointer;
+}
+.chatbox > img {
+  width: 60px;
+  height: 60px;
+}
+footer {
+  margin: 50px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+}
+.connect {
+  text-align: center;
+}
+.icon > i {
+  cursor: pointer;
+  background-color: #f26524;
+  height: 25px;
+  width: 50px;
+  padding-top: 25px;
+  border-radius: 50%;
+}
+.icon > i:hover {
+  background-color: #d46735;
+}
+.foot ~ p {
+  cursor: pointer;
+}
+.biller {
+  height: auto;
+  padding-bottom: 15px;
+}
+.pic6 {
+  width: 50%;
+}
+.pic6 img {
+  width: 100%;
+  height: 100%;
+}
+/* Media query */
+
+@media screen and (max-width: 700px) {
+  .sub-menu,
+  .menu-button {
+    display: none;
+  }
+  .text1,
+  .text4,
+  .text5 {
+    text-wrap: wrap;
+    padding-inline: 10px;
+    text-align: center;
+  }
+  .text1 > h1,
+  .text4 > h1,
+  .text5 > h1,
+  .container7 > h1 {
+    font-size: 22px;
+  }
+  .text1 > p,
+  .text4 > p,
+  .text5 > p {
+    font-size: 20px;
+  }
+  .row1,
+  .row2,
+  .row3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+  .card {
+    margin-block: 10px;
+  }
+  .pic2 img {
+    width: 400px;
+  }
+  .container3 {
+    flex-wrap: wrap;
+  }
+  .search input {
+    flex: 1;
+    margin: auto;
+  }
+  nav {
+    flex-direction: row-reverse;
+  }
+  .container {
+    flex-direction: column-reverse;
+  }
+  .big {
+    height: auto;
+  }
+  .text {
+    text-align: center;
+  }
+  #menu {
+    position: relative;
+    right: 90px;
+  }
+  .none {
+    display: none;
+  }
+  .container5 {
+    flex-direction: column;
+  }
+  .btn-class {
+    justify-content: center;
+  }
+  .container7 div > input {
+    display: none;
+  }
+  .connect {
+    display: none;
+  }
+  .foot {
+    flex-direction: column;
+  }
+  .container2 > .text1 {
+    padding-block: 20px;
+  }
+  .container .text,
+  .container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .text > p {
+    font-size: 35px;
+  }
+  .first,
+  .second,
+  .third {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 701px) {
+  .menu-button {
+    display: inline-block;
+  }
+  .sub-menu {
+    display: none;
+  }
+  .first,
+  .second,
+  .third {
+    flex-wrap: nowrap;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .row1,
+  .row2,
+  .row3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+  .card {
+    margin-block: 10px;
+  }
+  .none {
+    display: none;
+  }
+  .connect {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu-button,
+  .sub-menu {
+    display: inline-block;
+  }
+  .connect {
+    display: inline-block;
+  }
+  .row1,
+  .row2,
+  .row3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    place-items: center;
+    justify-content: center;
+  }
+  .none {
+    display: inline-block;
+  }
+  .first,
+  .second,
+  .third {
+    flex-wrap: wrap;
+  }
+  .container {
+    flex-direction: row;
+  }
+  nav{
+    justify-content: space-between;
+    padding-inline: 100px;
+  }
+}

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronic payment platform for Businesses</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/Remita/images/remita_orange_new_logo.svg"
+    />
+    <link rel="stylesheet" href="remita.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="navigation">
+      <nav>
+        <div>
+          <img
+            src="https://remita.net/assets/minimal/images/remita_orange_new_logo.svg"
+            alt="logo"
+          />
+        </div>
+        <div class="menu">
+          <div class="sub-menu">
+            <a class="personal" onmouseover="mouseOver()" onmouseout="mouseOut()" href="#">Personal</a>&nbsp;&nbsp;&nbsp;
+            <a class="business" onmouseover="hoverOn()" onmouseout="hoverOut()" href="#">Business</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">Developers</a>&nbsp;&nbsp;
+          </div>
+          &nbsp;
+          <div class="menu-button">
+            <button style="display: flex" class="btn" type="button">
+              <i class="fa-solid fa-lock" style="color: #757575"></i>&nbsp;
+              Login
+            </button>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="menu-button">
+            <button style="display: flex" class="btn" type="button">
+              <i class="fa-solid fa-plus" style="color: #757575"></i> &nbsp;Sign
+              Up
+            </button>
+          </div>
+          &nbsp;&nbsp;&nbsp;
+          <div id="menu">
+            <i class="fa-solid fa-bars fa-xl"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div id="visible" class="visibility">
+      <div class="content">
+        <div>
+          <a href="#">
+            <h3>View Balance across Multiple Banks</h3>
+          </a>
+          <p>
+            View your account balances and global total across all banks on one
+            screen
+          </p>
+          <br />
+
+          <a href="#">
+            <h3>Transfer Money Conviniently</h3>
+          </a>
+          <span
+            >Easily send money frm any of your bank accounts, including
+            microfinance banks, to anyone</span
+          >
+        </div>
+        <div>
+          <a href="#">
+            <h3>Pay Bills with Ease</h3>
+          </a>
+          <p>
+            Effortlessly top up for electricity, data and airtime, pay
+            government and more
+          </p>
+          <br />
+
+          <a href="#">
+            <h3>Request money in Style</h3>
+          </a>
+          <p>Whether for business or pleasure, it's to collecct</p>
+        </div>
+        <div>
+          <a href="#">
+            <h3>Track your Income and Expenses</h3>
+          </a>
+          <p>Stay in charge with simple yet comprehensive reports and charts</p>
+          <br />
+
+          <a href="#">
+            <h3>Download the Remita Mobile App</h3>
+          </a>
+          <p>Manage your finances without hassle with the Remita App</p>
+        </div>
+      </div>
+    </div>
+    <div id="visible-one" class="visibility-one">
+      <div class="content">
+        <div>
+          <a href="#">
+            <h3>Accept Payments</h3>
+          </a>
+          <p>Accept payment through multiple channels</p>
+          <br />
+
+          <a href="#">
+            <h3>Make Payments</h3>
+          </a>
+          <span
+            >Settle your staff, vendors, suppliers and others from or more
+            accounts</span
+          >
+        </div>
+        <div>
+          <a href="#">
+            <h3>Pay Salaries and Statutory Disbursements</h3>
+          </a>
+          <p>
+            Pay salaries, pensions, taxes, cooperative, bonuses and much more
+          </p>
+          <br />
+
+          <a href="#">
+            <h3>View all your account balances</h3>
+          </a>
+          <p>Keep track of all your account balances in one view</p>
+        </div>
+        <div>
+          <a href="#">
+            <h3>Automate your Income</h3>
+          </a>
+          <p>
+            With Remita Direct Debit, never lose any income to your business
+          </p>
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <div class="big">
+      <div class="search">
+        <input type="text" placeholder="Seach here for a biller" />
+      </div>
+      <div class="container">
+        <div class="text">
+          <p>
+            <strong>Empower</strong> your <strong>Customers</strong> to pay you
+            easily as you <strong>grow</strong> <br /><br />
+            <button type="button">
+              Click to Sign Up
+              <i
+                class="fa-sharp fa-solid fa-right-long"
+                style="color: #ffffff"
+              ></i>
+            </button>
+          </p>
+        </div>
+
+        <div class="biller">
+          <div class="first">
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/buy_airtime.svg"
+                alt="#"
+              />
+              <p>Buy Airtime</p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/buy_data.svg"
+                alt="#"
+              />
+              <p>Buy Data</p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/buy_electricity.svg"
+                alt=""
+              />
+              <p>Buy Electricity</p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/pay_cable.svg"
+                alt=""
+              />
+              <p>Cable TV</p>
+            </div>
+          </div>
+          <br />
+
+          <div class="second">
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/pay_water.svg"
+                alt=""
+              />
+              <p>Pay Water</p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/pay_tsa.svg"
+                alt=""
+              />
+              <p>Pay TSA & States</p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/pay_bills.svg"
+                alt=""
+              />
+              <p>Bills & Purchases</p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/pay_taxes.svg"
+                alt=""
+              />
+              <p>Pay Taxes</p>
+            </div>
+          </div>
+          <br /><br /><br />
+          <div class="third">
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/statutory_payments.svg"
+                alt=""
+              />
+              <p>Pay Salaries & Statutory Payments</p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/resend_receipt.svg"
+                alt=""
+              />
+              <p>Resend Receipt or Invoice</p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/standing_order.svg"
+                alt=""
+              />
+              <p>Direct Debit & Standing Order</p>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="shadow">
+              <img
+                src="https://remita.net/assets/minimal/images/quick-links-svg/icons/buy_waec.svg"
+                alt=""
+              />
+              <p>Buy WAEC PIN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chatbox">
+      <img
+        src="https://i0.wp.com/engageforequity.org/wp-content/uploads/2016/11/communicate-teal.png?ssl=1"
+        alt="chatbox"
+      />
+    </div>
+    <div class="container2">
+      <div class="pic">
+        <img
+          src="https://remita.net/assets/minimal/images/inline_card.png"
+          alt="card"
+        />
+      </div>
+      <div class="text1">
+        <h1 style="margin: 0">
+          Generate greater <br />
+          income. Receive more <br />
+          money conveniently
+        </h1>
+        <p>
+          Let your customers pay you easily at <br />
+          any time and from anywhere through <br />
+          the widest number of payment <br />channels available today on a
+          single application.
+        </p>
+        <div style="display: flex">
+          <button class="btn2" type="button">
+            Learn More &nbsp;&nbsp;<i
+              class="fa-sharp fa-solid fa-right-long"
+              style="color: #000000"
+            ></i></button
+          >&nbsp;&nbsp;&nbsp;
+          <button class="btn3" type="button">
+            Sign Up to Start Receiving Payment&nbsp;&nbsp;
+            <i
+              class="fa-sharp fa-solid fa-right-long"
+              style="color: #ffffff"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container3">
+      <div class="text1">
+        <h1>
+          Achieve much more. <br />
+          Reach a wider market
+        </h1>
+        <p>
+          Provide your goods and services to an extended <br />
+          target of customers and prospects, while <br />
+          monitoring all transactions from initiation to <br />
+          payment.
+        </p>
+        <div style="display: flex">
+          <button class="btn2" type="button">
+            Learn More &nbsp;&nbsp;<i
+              class="fa-sharp fa-solid fa-right-long"
+              style="color: #000000"
+            ></i></button
+          >&nbsp;&nbsp;&nbsp;
+          <button class="btn4" type="button">
+            Sign Up Now&nbsp;&nbsp;
+            <i
+              class="fa-sharp fa-solid fa-right-long"
+              style="color: #ffffff"
+            ></i>
+          </button>
+        </div>
+      </div>
+      <div class="pic2">
+        <img
+          src="https://remita.net/assets/minimal/images/merchants_bg_img.png"
+          alt="image"
+        />
+      </div>
+    </div>
+
+    <div class="container4">
+      <div class="text4">
+        <h1 style="margin: 0; padding-top: 40px">
+          Pay bills and send money <br />
+          without stress
+        </h1>
+        <p>
+          Securely make payments to suppliers, vendors, staff and other billers
+          into their <br />
+          accounts in any bank or mobile wallets, around-the-clock, including
+          after official <br />
+          work hours, weekends and public holidays.
+        </p>
+      </div>
+      <div class="logos">
+        <div class="row1">
+          <div class="card pad">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/waec.png"
+              alt="WAEC"
+            />
+          </div>
+          <div class="card pad">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/jamb.png"
+              alt="JAMB"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/aedc.png"
+              alt="AEDC"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/ekedc.png"
+              alt="EKEDC"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/eedc.png"
+              alt="EEDC"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/ikeja.png"
+              alt="ie"
+            />
+          </div>
+        </div>
+        <div class="row2">
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/ibedc.png"
+              alt="IBEDC"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/phedc.png"
+              alt="phedc"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/jos.png"
+              alt="JOS"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/abuja_water.png"
+              alt="water"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/startimes.png"
+              alt="startimes"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/dstv.png"
+              alt="dstv"
+            />
+          </div>
+        </div>
+        <div class="row3">
+          <div class="none"></div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/gotv.png"
+              alt="gotv"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/swift.png"
+              alt="swift"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="https://remita.net/assets/minimal/images/billers/ekiti.png"
+              alt="ekiti"
+            />
+          </div>
+        </div>
+      </div>
+      <br /> <br>
+      <div id="btn">
+        <button id="btn1" type="button">
+          Sign up as a Biller &nbsp;&nbsp;
+          <i
+            class="fa-sharp fa-solid fa-right-long"
+            style="color: #ffffff"
+          ></i></button
+        >&nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="btn2" type="button">
+          Pay other billers &nbsp;&nbsp;<i
+            class="fa-sharp fa-solid fa-right-long"
+            style="color: #000000"
+          ></i>
+        </button>
+      </div>
+      <br><br>
+    </div>
+
+    <div class="container5">
+      <div>
+        <img
+          src="https://remita.net/assets/minimal/images/mini_download_hero_img.svg"
+          alt="image"
+        />
+      </div>
+      <div class="text5">
+        <h1>
+          Download the <br />
+          Remita Mobile App
+        </h1>
+        <p>
+          Buy airtime and data; pay electricity, <br />
+          water, cable TV subscription, <br />
+          government bills and more. Also transfer <br />
+          money, track expenses, request money, <br />
+          manage your finances, and much more <br />
+          without hassle. <a href="#">Learn More HERE</a>
+        </p>
+        <br />
+        <div class="btn-class" style="display: flex">
+          <button id="google" type="button">
+            <i
+              class="fa-brands fa-google-play fa-2xl"
+              style="color: #000000"
+            ></i
+            >&nbsp;&nbsp;
+            <div class="google">
+              <span style="font-size: 12px; color: rgb(173, 173, 173)"
+                >Get on the</span
+              >
+              <br />
+              Google Play
+            </div></button
+          >&nbsp;&nbsp;
+          <button id="apple" type="button">
+            <i class="fa-brands fa-apple fa-2xl" style="color: #050505"
+              >&nbsp;&nbsp;
+            </i>
+            <div class="apple">
+              <span style="font-size: 12px; color: rgb(173, 173, 173)"
+                >Get on the</span
+              >
+              <br />
+              App Store
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container6">
+      <div class="text5">
+        <h1 style="margin: 0; padding-top: 40px">
+          Get Paid from your Website or App
+        </h1>
+        <p>
+          With our ready-to-use and developer friendly APIs, SDKs and plugins,
+          you <br />
+          can easily integrate to Remita to your website or app for FREE to
+          start <br />
+          receiving payments in a breeze.
+        </p>
+      </div>
+      <div class="pic6">
+        <img
+          src="https://remita.net/assets/minimal/images/developers_code_img.svg"
+          alt="code-image"
+        />
+      </div>
+      <button class="btn3" type="button">SEE DOCUMENTATION</button>
+    </div>
+    <div class="container7">
+      <h1 style="margin: 0; padding-top: 40px">
+        Join our mailing list to get exclusive updates
+      </h1>
+      <br />
+      <div class="form">
+        <input
+          type="text"
+          placeholder="Enter Your email here (e.g toks@remita.net)"
+        />
+        <button type="button">
+          <i class="fa-solid fa-envelope" style="color: #e44611"></i> Subscribe
+        </button>
+      </div>
+    </div>
+    <footer>
+      <div class="contact">
+        <h3>CONTACT US</h3>
+        <p>
+          Address: Plot B22 Chief Yesufu Abiodun Oniru Road, Oniru, Lagos,
+          Nigeria. <br />
+          Support: +234-1-6367000 | +234700-7877678 | support@remita.net
+        </p>
+      </div>
+      <div class="connect">
+        <p>
+          Connect with us on Social <br />
+          Media
+        </p>
+        <div class="icon">
+          <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff"></i>
+          <i class="fa-brands fa-twitter fa-lg" style="color: #ffffff"></i>
+          <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff"></i>
+          <i class="fa-brands fa-linkedin-in fa-lg" style="color: #ffffff"></i>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column">
+        <div class="foot" style="display: flex; justify-content: flex-end">
+          <button id="google" type="button">
+            <i
+              class="fa-brands fa-google-play fa-2xl"
+              style="color: #000000"
+            ></i
+            >&nbsp;&nbsp;
+            <div class="google">
+              <span style="font-size: 12px; color: rgb(173, 173, 173)"
+                >Get on the</span
+              >
+              <br />
+              Google Play
+            </div></button
+          >&nbsp;&nbsp;
+
+          <button id="apple" type="button">
+            <i class="fa-brands fa-apple fa-2xl" style="color: #050505"
+              >&nbsp;&nbsp;
+            </i>
+            <div class="apple">
+              <span style="font-size: 12px; color: rgb(173, 173, 173)"
+                >Get on the</span
+              >
+              <br />
+              App Store
+            </div>
+          </button>
+        </div>
+        <br />
+        <p class="none">MOBILE APP | PRIVACY POLICY | TERMS & CONDITIONS</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
